@@ -6,5 +6,5 @@ npm test
 info "Running prettier & Updating packages..."
 
 yarn install
-
+yarn lint
 yarn prettier --write .
